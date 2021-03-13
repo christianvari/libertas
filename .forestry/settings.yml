@@ -5,13 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: src/pages
   label: Blogg
   create: all
   match: "**/*"
-- type: document
-  path: src/pages
-  label: Blog
 upload_dir: static/images
 public_path: static/images
 front_matter_path: ''
