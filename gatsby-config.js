@@ -1,7 +1,7 @@
-const siteMetadata = require('./site-metadata.json')
+const siteMetadata = require("./site-metadata.json");
 
 module.exports = {
-    pathPrefix: '/',
+    pathPrefix: "/libertas",
     siteMetadata: siteMetadata,
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -11,23 +11,23 @@ module.exports = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `pages`,
-                path: `${__dirname}/src/pages`
-            }
+                path: `${__dirname}/src/pages`,
+            },
         },
         {
             resolve: `gatsby-plugin-sass`,
-            options: {}
+            options: {},
         },
         {
             resolve: `gatsby-remark-page-creator`,
-            options: {}
+            options: {},
         },
         {
             resolve: `@stackbit/gatsby-plugin-menus`,
             options: {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
-            }
-        }
-    ]
+            },
+        },
+    ],
 };
