@@ -27,6 +27,16 @@
                 "style": "link"
             },
             {
+                "label": "Blog",
+                "url": "/blog",
+                "style": "link"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
                 "label": "Sign Up",
                 "url": "/signup",
                 "style": "primary"
@@ -40,7 +50,7 @@
                 "image": "images/logo-alt.svg",
                 "image_url": "/",
                 "image_alt": "Footer logo",
-                "content": "Stackbit theme demo"
+                "content": "Libertas Staking"
             },
             {
                 "type": "footer_nav",
@@ -116,20 +126,8 @@
                 "submit_label": "Subscribe"
             }
         ],
-        "has_nav": true,
-        "nav_links": [
-            {
-                "label": "Terms of Service",
-                "url": "/terms-of-service",
-                "style": "link"
-            },
-            {
-                "label": "Privacy Policy",
-                "url": "/privacy-policy",
-                "style": "link"
-            }
-        ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>."
+        "has_nav": false,
+        "content": "&copy; Libertas Staking. All rights reserved."
     },
-    "title": "Azimuth"
+    "title": "Libertas"
 }
