@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import _ from "lodash";
 
 import { htmlToReact, markdownify } from "../utils";
@@ -12,15 +12,6 @@ const isEmailValid = (email) => {
 
 const SectionContact = (props) => {
     const emailjsKey = "user_nhVBkJKWL8i5wQRy2y9Uj";
-
-    const nameRef = useRef(null);
-    const [name, setName] = useState("");
-
-    const emailRef = useRef(null);
-    const [email, setEmail] = useState("");
-
-    const messageRef = useRef(null);
-    const [message, setMessage] = useState("");
 
     const [buttonText, setButtonText] = useState("Send Message");
     const [onError, setOnError] = useState(false);
