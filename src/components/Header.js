@@ -17,22 +17,20 @@ export default class Header extends React.Component {
                                 null,
                             ) && (
                                 <p className="site-logo">
-                                    <Link to={"/"}>
-                                        <img
-                                            src={withPrefix(
-                                                _.get(
-                                                    this.props,
-                                                    "pageContext.site.siteMetadata.header.logo_img",
-                                                    null,
-                                                ),
-                                            )}
-                                            alt={_.get(
+                                    <img
+                                        src={withPrefix(
+                                            _.get(
                                                 this.props,
-                                                "pageContext.site.siteMetadata.header.logo_img_alt",
+                                                "pageContext.site.siteMetadata.header.logo_img",
                                                 null,
-                                            )}
-                                        />
-                                    </Link>
+                                            ),
+                                        )}
+                                        alt={_.get(
+                                            this.props,
+                                            "pageContext.site.siteMetadata.header.logo_img_alt",
+                                            null,
+                                        )}
+                                    />
                                 </p>
                             )}
                             {_.get(
@@ -72,13 +70,13 @@ export default class Header extends React.Component {
                                         ),
                                     })}
                                 >
-                                    <Link to={"/"}>
+                                    <p>
                                         {_.get(
                                             this.props,
                                             "pageContext.site.siteMetadata.title",
                                             null,
                                         )}
-                                    </Link>
+                                    </p>
                                 </p>
                             )}
                         </div>
