@@ -28,7 +28,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run buildForGithub
+    - run: npm run build
       
     - uses: peaceiris/actions-gh-pages@v3.6.4
       with:
