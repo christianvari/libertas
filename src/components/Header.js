@@ -17,20 +17,22 @@ export default class Header extends React.Component {
                                 null,
                             ) && (
                                 <p className="site-logo">
-                                    <img
-                                        src={withPrefix(
-                                            _.get(
+                                    <Link to={withPrefix("/")}>
+                                        <img
+                                            src={withPrefix(
+                                                _.get(
+                                                    this.props,
+                                                    "pageContext.site.siteMetadata.header.logo_img",
+                                                    null,
+                                                ),
+                                            )}
+                                            alt={_.get(
                                                 this.props,
-                                                "pageContext.site.siteMetadata.header.logo_img",
+                                                "pageContext.site.siteMetadata.header.logo_img_alt",
                                                 null,
-                                            ),
-                                        )}
-                                        alt={_.get(
-                                            this.props,
-                                            "pageContext.site.siteMetadata.header.logo_img_alt",
-                                            null,
-                                        )}
-                                    />
+                                            )}
+                                        />
+                                    </Link>
                                 </p>
                             )}
                             {_.get(
@@ -52,7 +54,7 @@ export default class Header extends React.Component {
                                         ),
                                     })}
                                 >
-                                    <Link to={"/"}>
+                                    <Link to={withPrefix("/")}>
                                         {_.get(
                                             this.props,
                                             "pageContext.site.siteMetadata.title",
@@ -70,13 +72,13 @@ export default class Header extends React.Component {
                                         ),
                                     })}
                                 >
-                                    <p>
+                                    <Link to={withPrefix("/")}>
                                         {_.get(
                                             this.props,
                                             "pageContext.site.siteMetadata.title",
                                             null,
                                         )}
-                                    </p>
+                                    </Link>
                                 </p>
                             )}
                         </div>

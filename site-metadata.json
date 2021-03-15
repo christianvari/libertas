@@ -23,7 +23,7 @@
                 "style": "link"
             },
             {
-                "label": "Sign Up",
+                "label": "Start delegate",
                 "url": "/signup",
                 "style": "primary"
             }
@@ -46,21 +46,6 @@
                         "label": "About Us",
                         "url": "/about",
                         "style": "link"
-                    },
-                    {
-                        "label": "Blog",
-                        "url": "/blog",
-                        "style": "link"
-                    },
-                    {
-                        "label": "Sign Up",
-                        "url": "/signup",
-                        "style": "link"
-                    },
-                    {
-                        "label": "Contact",
-                        "url": "/contact",
-                        "style": "link"
                     }
                 ]
             },
@@ -74,14 +59,6 @@
                         "style": "link",
                         "has_icon": true,
                         "icon": "twitter",
-                        "icon_position": "left"
-                    },
-                    {
-                        "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/",
-                        "style": "link",
-                        "has_icon": true,
-                        "icon": "linkedin",
                         "icon_position": "left"
                     },
                     {
