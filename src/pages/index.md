@@ -104,7 +104,7 @@ sections:
     title: Latest Posts
 seo:
   title: Libertas Staking
-  description: Your Staking Pool
+  description: Your Crypto.org chain staking pool operator
   extra:
     - name: 'og:type'
       value: website
@@ -113,7 +113,7 @@ seo:
       value: Libertas Staking
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: Your Crypto.org chain staking pool operator
       keyName: property
     - name: 'og:image'
       value: images/hero.png
@@ -124,7 +124,7 @@ seo:
     - name: 'twitter:title'
       value: Libertas Staking
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Your Crypto.org chain staking pool operator
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true

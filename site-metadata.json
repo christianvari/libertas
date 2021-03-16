@@ -2,9 +2,10 @@
     "siteUrl": "https://www.libertascrypto.org",
     "base_font": "nunito-sans",
     "palette": "blue",
+    "favicon": "images/favicon.png",
     "header": {
-        "logo_img": "images/logo.svg",
-        "logo_img_alt": "Logo",
+        "logo_img": "images/logo.png",
+        "logo_img_alt": "Libertas Staking Logo",
         "has_nav": true,
         "nav_links": [
             {
