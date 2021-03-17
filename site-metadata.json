@@ -19,6 +19,11 @@
                 "style": "link"
             },
             {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
                 "label": "Contact",
                 "url": "/contact",
                 "style": "link"
@@ -31,50 +36,7 @@
         ]
     },
     "footer": {
-        "sections": [
-            {
-                "type": "footer_text",
-                "image": "images/logo-alt.svg",
-                "image_url": "/",
-                "image_alt": "Footer logo",
-                "content": "Libertas Staking"
-            },
-            {
-                "type": "footer_nav",
-                "title": "Company",
-                "nav_links": [
-                    {
-                        "label": "About Us",
-                        "url": "/about",
-                        "style": "link"
-                    }
-                ]
-            },
-            {
-                "type": "footer_nav",
-                "title": "Community",
-                "nav_links": [
-                    {
-                        "label": "Twitter",
-                        "url": "https://twitter.com/",
-                        "style": "link",
-                        "has_icon": true,
-                        "icon": "twitter",
-                        "icon_position": "left"
-                    },
-                    {
-                        "label": "GitHub",
-                        "url": "https://github.com/",
-                        "style": "link",
-                        "has_icon": true,
-                        "icon": "github",
-                        "icon_position": "left"
-                    }
-                ]
-            }
-        ],
-        "has_nav": false,
         "content": "&copy; Libertas Staking. All rights reserved."
     },
-    "title": "Libertas"
+    "title": "Libertas Staking"
 }
