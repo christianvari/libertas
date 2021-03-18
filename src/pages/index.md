@@ -10,7 +10,7 @@ sections:
       Simple. Secure. Democratic.
     actions:
       - label: Start delegate
-        url: /features
+        url: /delegate
         style: primary
   - section_id: features
     type: section_features
@@ -51,7 +51,7 @@ sections:
     title: Start earning with us!
     actions:
       - label: Start delegate
-        url: /signup
+        url: /delegate
         style: primary
   - section_id: recent-posts
     type: section_posts

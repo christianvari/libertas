@@ -19,18 +19,13 @@
                 "style": "link"
             },
             {
-                "label": "About",
-                "url": "/about",
-                "style": "link"
-            },
-            {
                 "label": "Contact",
                 "url": "/contact",
                 "style": "link"
             },
             {
                 "label": "Start delegate",
-                "url": "/signup",
+                "url": "/delegate",
                 "style": "primary"
             }
         ]
