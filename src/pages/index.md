@@ -41,7 +41,7 @@ sections:
           Our fee is set at 5%. Libertas keeps fees low as possible to enable anyone to access the crypto world. 
 
       - title: Keep in touch
-        image: images/feature3.png
+        image: twitter
         image_alt: App user profile preview
         content: >-
           Continue your Libertas experience on our Twitter account.
