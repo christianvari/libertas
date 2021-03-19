@@ -71,7 +71,7 @@ seo:
       value: Your Crypto.org chain staking pool operator
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: images/favicon.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -81,7 +81,7 @@ seo:
     - name: 'twitter:description'
       value: Your Crypto.org chain staking pool operator
     - name: 'twitter:image'
-      value: images/hero.png
+      value: images/favicon.png
       relativeUrl: true
 template: landing
 ---
