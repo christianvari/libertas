@@ -17,6 +17,7 @@
     "fs-extra": "^7.0.1",
     "gatsby": "2.22.17",
     "gatsby-plugin-cname": "^1.0.0",
+    "gatsby-plugin-google-gtag": "^2.8.0",
     "gatsby-plugin-react-helmet": "^3.3.3",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sitemap": "^2.12.0",
