@@ -56,7 +56,7 @@ The migration process depends on where you hold your CRO.
 * **Crypto.com DeFi Wallet Users**
 
   You can migrate your ERC20 CRO to native CRO using our simple, in-app migration tool.
-* **Other Users (Coming Soon)**
+* [**Web Migration Tool**](https://crypto.org/migration/webtool "Web Migration Tool")
 
   Easily connect your MetaMask or Ledger wallet to our CRO Web Migration Tool, and follow the on-screen instructions. Sign up to the Crypto.com App or Exchange to migrate your tokens with a few taps.
 
@@ -64,4 +64,6 @@ The migration process depends on where you hold your CRO.
 
 Now that your funds has been migrated to the Crypto.org chain, you will be able to delegate your CRO to the Libertas Staking pool and start earning interests.
 
-We'll update this section as we'll have more news on how it'll works on different wallet applications. 
+Use this validator address when you start delegate in the app:
+
+### **crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2**
