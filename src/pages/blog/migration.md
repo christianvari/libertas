@@ -54,4 +54,4 @@ The migration process depends on where you hold your CRO.
   Easily connect your MetaMask or Ledger wallet to our CRO Web Migration Tool, and follow the on-screen instructions. Sign up to the Crypto.com App or Exchange to migrate your tokens with a few taps.
 
   [Click here to open the official guide](https://crypto.org/docs/getting-started/token-migration.html#preparation)
-    ![CRO Migration Tool](static/images/review-migration-2ce96b70.png)
+    ![CRO Migration Tool](images/review-migration-2ce96b70.png)
