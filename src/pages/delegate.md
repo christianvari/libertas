@@ -39,12 +39,12 @@ After that we have downloaded the application and created or restored our wallet
 
 We have to select the **Staking** tab
 
-![](static/images/staking.png)
+![](images/staking.png)
 
 Then select **Delegate funds** tab and put the Libertas Validator Address in the **Validator address** field
 
 Libertas Validator Address is: **crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2**
 
-![](static/images/staking2.png)
+![](images/staking2.png)
 
 Now our funds are delegated and we'll start earn interests on our CRO.
