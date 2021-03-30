@@ -7,7 +7,7 @@ sections:
     image_alt: App preview
     title: Your Crypto.org chain staking pool operator
     content: >-
-      Simple. Secure. Democratic.
+      Simple. Secure. Democratic.<br/><br/><strong>3% fees<br/>Validator address : crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2</strong>
     actions:
       - label: Start delegate
         url: /delegate
@@ -20,7 +20,7 @@ sections:
         image: images/simple.svg
         image_alt: Get Crypto.org app for any devices
         content: >-
-          Start earn interests on your CRO with one tap. You can delegate to Libertas Staking from your mobile or pc. 
+          Start earn interests on your CRO with one tap.<br/>You can delegate to Libertas Staking from your mobile or pc. 
         actions:
           - label: Get Crypto.org app 
             url: https://crypto.org/wallets
@@ -32,13 +32,13 @@ sections:
         image: images/secure.svg
         image_alt: Stake in a secure environment
         content: >-
-          Libertas is securing its stake pool with sentry nodes. We use Prometheus and Grafana to monitor our systems and get alerted of issues. All our servers are located in Europe.
+          Libertas is securing its stake pool with <strong>sentry nodes</strong>.<br/>We use <strong>Prometheus</strong> and <strong>Grafana</strong> to monitor our systems and get alerted of issues.<br/>All our servers are located in <strong>Europe</strong>.
 
       - title: Democratic
         image: images/democratic.svg
         image_alt: Libertas is a democratic staking pool
         content: >-
-          Our fee is set at 5%. Libertas keeps fees low as possible to enable anyone to access the crypto world. 
+          <strong>Our fee is set at 3%</strong>.<br/>Libertas keeps fees low as possible to enable anyone to access the crypto world. 
 
       - title: Keep in touch
         image: twitter
@@ -48,7 +48,9 @@ sections:
 
   - section_id: call-to-action
     type: section_cta
-    title: Start earning with us!
+    title: Start earning with us! 
+    subtitle: >-
+     Validator address: <strong>crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2</strong>
     actions:
       - label: Start delegate
         url: /delegate
