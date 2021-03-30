@@ -25,45 +25,26 @@ seo:
 template: page
 
 ---
-### Download the wallet
-
-Crypto.org chain supports different wallet types.
-
-* [Crypto.com DeFi Wallet](https://crypto.com/defi-wallet "Crypto.com DeFi Wallet")
-
-  A non-custodial mobile wallet app offering you a full suite of DeFi services in one place, where you have full control of your crypto and private keys. Your stored tokens are protected by our multi-layered security features. The wallet will support CRO migration tool and Crypto.org Chain Staking upon Mainnet launch.
-* [Crypto.org Chain Desktop Wallet]() (BETA)
-
-  An open-source beta version of Crypto.org Chain Desktop Wallet. The desktop wallet supports basic sending and staking operations on Mainnet and Croeseid Testnet.
-* [Crypto.org Wallet Client CLI](https://crypto.org/docs/wallets/cli.html "Crypto.org Wallet Client CLI") (Power users)
-
-  A command-line interface wallet client. It supports all the wallet operations including management, funds transfer and staking operations.
-* [Ledger Hardware Wallet](https://crypto.org/docs/wallets/ledger_desktop_wallet.html#install-the-crypto-com-app-and-create-the-wallet "Ledger Hardware Wallet")
-
-  One of the world's most popular hardware wallets, which provide full isolation between the private keys and your easy-to-hack computer or smartphone.
-
-Libertas Staking recommends using the desktop wallet or client CLI coupled with a Ledger hardware wallet.
-
-### Migrate your funds from ERC-20
-
-In order to use your CRO in the Crypto.org chain, you need to migrate your CRO from Ethereum to this new chain.
-
-The migration process depends on where you hold your CRO.
-
-* **Crypto.com App & Exchange Users**
-
-  Your ERC20 CRO will be automatically converted to native CRO when you withdraw.
-* **Crypto.com DeFi Wallet Users**
-
-  You can migrate your ERC20 CRO to native CRO using our simple, in-app migration tool.
-* [**Web Migration Tool**](https://crypto.org/migration/webtool "Web Migration Tool")
-
-  Easily connect your MetaMask or Ledger wallet to our CRO Web Migration Tool, and follow the on-screen instructions. Sign up to the Crypto.com App or Exchange to migrate your tokens with a few taps.
-
 ### Delegate your CRO to Libertas Staking pool
 
-Now that your funds has been migrated to the Crypto.org chain, you will be able to delegate your CRO to the Libertas Staking pool and start earning interests.
+**_If you have your CRO on the Ethereum blockchain as ERC-20 token, you need to migrate them first._** [**_Click here to open the migration guide_**](https://www.libertascrypto.org/blog/migration/ "CRO Migration guide")
 
-Use this validator address when you start delegate in the app:
+At the moment you can only use the desktop application or the CLI to delegate to a community pool. It will also be implemented soon on the Defi Wallet Mobile App.
 
-### **crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2**
+#### Cripto.org chain Desktop Wallet
+
+First of all we need to download the app for our platform. [Click here to open the download page](https://github.com/crypto-com/chain-desktop-wallet/releases/ "Crypto.orgdesktop wallet download page")
+
+After that we have downloaded the application and created or restored our wallet **( remember to keep your mnemonic phrase in a safe place )**, we can start to delegate our CRO.
+
+We have to select the **Staking** tab
+
+![](static/images/staking.png)
+
+Then select **Delegate funds** tab and put the Libertas Validator Address in the **Validator address** field
+
+Libertas Validator Address is: **crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2**
+
+![](static/images/staking2.png)
+
+Now our funds are delegated and we'll start earn interests on our CRO.
