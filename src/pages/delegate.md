@@ -31,7 +31,7 @@ template: page
 
 At the moment you can only use the desktop application or the CLI to delegate to a community pool. It will also be implemented soon on the Defi Wallet Mobile App.
 
-#### Cripto.org chain Desktop Wallet
+#### Crypto.org chain Desktop Wallet
 
 First of all we need to download the app for our platform. [Click here to open the download page](https://github.com/crypto-com/chain-desktop-wallet/releases/ "Crypto.orgdesktop wallet download page")
 
@@ -47,4 +47,4 @@ Libertas Validator Address is: **crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2*
 
 ![](https://www.libertascrypto.org/images/staking2.png)
 
-Now our funds are delegated and we'll start earn interests on our CRO.
+Now our funds are delegated on Libertas and we'll start earn interests on our CRO.
