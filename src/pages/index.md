@@ -7,7 +7,7 @@ sections:
     image_alt: App preview
     title: Your Crypto.org chain staking pool operator
     content: >-
-      Simple. Secure. Democratic.<br/><br/><strong>3% fees<br/>Validator address : crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2</strong>
+      Simple. Secure. Democratic.<br/><br/><strong>0% fees</strong><br/>Validator address : crocncl1dayf6c9vycqced70p6cx70334ctafz8j0wp6t2
     actions:
       - label: Start delegate
         url: /delegate
@@ -38,7 +38,7 @@ sections:
         image: images/democratic.svg
         image_alt: Libertas is a democratic staking pool
         content: >-
-          <strong>Our fee is set at 3%</strong>.<br/>Libertas keeps fees low as possible to enable anyone to access the crypto world. 
+          <strong>Our fee is set at 0%</strong>.<br/>Libertas aims to enable everyone to access the crypto world. 
 
       - title: Keep in touch
         image: twitter
